@@ -1,0 +1,48 @@
+.bgm {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/reviews-bg.png');
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto';
+  }
+  .heading {
+    color: #ffffff;
+  }
+  .img {
+    width: 100px;
+  }
+  .corousel {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+  .name {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  .arrow-img {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+  }
+  .company {
+    color: #171f46;
+    font-weight: 500;
+  }
+  .corousel-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .desc {
+    text-align: center;
+  }
+  .arrow-btn {
+    background: transparent;
+    border: none;
+  }
+  
