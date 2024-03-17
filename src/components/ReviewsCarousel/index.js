@@ -29,7 +29,7 @@ class ReviewsCarousel extends Component {
         <h1 className="heading">Reviews</h1>
         <img src={imgUrl} alt={username} className="img" />
         <div className="corousel">
-          <button type="button" className="arrow-btn">
+          <button type="button" className="arrow-btn" data-testid="leftArrow">
             <img
               src="https://assets.ccbp.in/frontend/react-js/left-arrow-img.png"
               alt="left arrow"
@@ -41,7 +41,7 @@ class ReviewsCarousel extends Component {
             <p className="name">{username}</p>
             <p className="company">{companyName}</p>
           </div>
-          <button type="button" className="arrow-btn">
+          <button type="button" className="arrow-btn" data-testid="rightArrow">
             <img
               src="https://assets.ccbp.in/frontend/react-js/right-arrow-img.png"
               alt="right arrow"
